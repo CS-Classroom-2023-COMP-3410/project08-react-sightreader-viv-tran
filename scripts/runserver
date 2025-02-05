@@ -1,0 +1,4 @@
+#!/bin/bash
+. ./env/bin/activate
+export FLASK_DEBUG=1
+flask run --host=0.0.0.0
